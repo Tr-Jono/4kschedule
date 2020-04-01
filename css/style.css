@@ -36,6 +36,28 @@ img {
 	margin: auto;
 }
 
+.core {
+	color: red;
+}
+
+.sim {
+	float: left;
+	width: 49.5%;
+	box-sizing: border-box;
+}
+
+.sl {
+	margin-right: 0.5%;
+}
+
+.sr {
+	margin-left: 0.5%;
+}
+
+.clr {
+	clear: both;
+}
+
 .subtitle {
 	color: #555;
 }
