@@ -15,6 +15,7 @@ ul {
 li {
 	border-radius: 20px;
 	background-color: #f4f4f4;
+	transition: transform 0.2s;
 	font-size: 18px;
 	padding: 0.05px 0;
 	margin: 8px 0;
@@ -23,6 +24,14 @@ li {
 li:first-child {
 	background-color: orange;
 	color: white;
+}
+
+li:hover {
+	transform: scale(1.05);
+}
+
+li:first-child:hover {
+	transform: none;
 }
 
 img {
@@ -44,16 +53,16 @@ img {
 
 .sim {
 	float: left;
-	width: 49.5%;
+	width: 49%;
 	box-sizing: border-box;
 }
 
 .sl {
-	margin-right: 0.5%;
+	margin-right: 1%;
 }
 
 .sr {
-	margin-left: 0.5%;
+	margin-left: 1%;
 }
 
 .clr {
