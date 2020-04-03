@@ -6,6 +6,6 @@ function changeColor() {
 
 let index = 0;
 const colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
-const imgs = [...document.getElementsByClassName("beefball")];
+const imgs = document.querySelectorAll("img");
 if (imgs.length)
 	changeColor();
